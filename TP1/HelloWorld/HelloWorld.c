@@ -13,7 +13,6 @@ int main (int argc, char *argv[])
             nthreads = omp_get_num_threads();
             printf("Nombre de threads = %d\n", nthreads);
         }
-
     }
     return 0;
 }
