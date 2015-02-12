@@ -10,3 +10,7 @@ add_executable(TP1_HelloWorld ${SOURCE_FILES_HELLO})
 #Matrix Multiplication
 set(SOURCE_FILES_MATRIX TP1/Matrix/Matrix.c)
 add_executable(TP1_Matrix ${SOURCE_FILES_MATRIX})
+
+#Philosophers
+set(SOURCE_FILES_PHILO TP1/Philosophers/philosophers.c)
+add_executable(TP1_Philo ${SOURCE_FILES_PHILO})
