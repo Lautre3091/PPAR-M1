@@ -14,3 +14,7 @@ add_executable(TP1_Matrix ${SOURCE_FILES_MATRIX})
 #Philosophers
 set(SOURCE_FILES_PHILO TP1/Philosophers/philosophers.c)
 add_executable(TP1_Philo ${SOURCE_FILES_PHILO})
+
+#Eratosthene
+set(SOURCE_FILES_ERA TP1/Eratosthene/eratosthene.c)
+add_executable(TP1_Era ${SOURCE_FILES_ERA})
